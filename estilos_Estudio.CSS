@@ -1,0 +1,27 @@
+#estudios{
+	float: left;
+	width: 100%;
+	min-height: 300px;
+	background: white;
+}
+table {
+   width: 100%;
+   border: 1px solid black;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 5px;
+   caption-side: bottom;
+}
+caption {
+   padding: 5px;
+   color: white;
+   background: black;
+}
+th {
+   background: lightgray;
+}

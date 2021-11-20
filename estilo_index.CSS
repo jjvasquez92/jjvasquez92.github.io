@@ -1,0 +1,14 @@
+.ordenar{
+	clear: both;
+	
+}
+#presentacion{
+	float: left;
+	width: 70%;
+	min-height: 300px;
+	background: white;
+}
+img{
+	width: 40%;
+	height: 150px;
+}

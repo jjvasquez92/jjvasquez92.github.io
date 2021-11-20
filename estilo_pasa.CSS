@@ -1,0 +1,71 @@
+.container{
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  padding: 30px;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slaider{
+  position: relative;
+  width: 400px; /*800*/
+  height: 150px; /*300*/
+}
+
+.slaider li {
+    position: absolute;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:white;
+}
+
+
+.slaider li img{
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  line-height: 200px;
+  padding-left: 250px;
+}
+
+.slaider li:first-child p{
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+p{
+  margin-left: 440px;
+}
+
+
+ul.slaider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  margin: 50px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
